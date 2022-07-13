@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="my-mvc-2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/my_mvc_2_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="my-mvc-2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.hibernate.validator:hibernate-validator:6.2.0.Final" />
+          <element id="library" level="project" name="Maven: jakarta.validation:jakarta.validation-api:2.0.2" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.4.1.Final" />
+          <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.5.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="my-mvc-2/web/Web" />
+    </root>
+  </artifact>
+</component>
